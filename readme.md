@@ -4,6 +4,10 @@ This is a simple project to reproduce an issue I seem to be having wih the rollu
 # What does it show?
 The bundle is produced by the rollup command which attempts to define a variable called name.  However, in the browser, name already exists within the global scope, so it is not reassigned.  This is shown in the simple output where the "name" tag has become "[Object object]" rather than the value assigned.
 
+You can see the output in this screenshot:
+![Screenshot](/output.png)
+As you can see in the watch window, "name" is assigned in the global scope, so it appears that the rolled-up `var name = {"key":"name-tag","value":"Mr Jones"};` code does not reassign the global "name" value.
+
 # How to run
 Clone the repo, `npm install` to grab the dependencies, then run `npm start` to carry out the rollup (produces an output file called bundle.js) then runs Python's SimpleHTTPServer.  You can test the output by navigating to http://localhost:8000
 
