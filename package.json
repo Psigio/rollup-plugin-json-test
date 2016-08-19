@@ -1,13 +1,13 @@
 {
   "name": "rollup-plugin-json-test",
   "version": "1.0.0",
-  "description": "Reproduces an issue with using a variable called name with rollup-plugin-json",
-  "main": "index.js",
+  "description": "Reproduces an issue with using a variable called name with rollup-plugin-json when run in browser",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/rollup --config=./rollup.config.js --input ./src/main.js --output dist/bundle.js; python -m SimpleHTTPServer"
   },
-  "author": "Jon D",
+  "author": "Jon",
   "license": "ISC",
   "devDependencies": {
     "rollup": "^0.34.10",
