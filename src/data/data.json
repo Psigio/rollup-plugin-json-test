@@ -1,0 +1,10 @@
+{
+    "name" : { 
+        "key": "name-tag",
+        "value": "Mr Jones"
+    },
+    "address" : {
+        "key": "address-tag",
+        "value" : "1 Somewhere Street"
+    }
+}
