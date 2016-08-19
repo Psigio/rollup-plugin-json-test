@@ -15,7 +15,7 @@ Clone the repo, `npm install` to grab the dependencies, then run `npm start` to 
 
 # What's the original setup?
 I'm using:
-* Chrome Version 52.0.2743.116 (64-bit)
-* Ubuntu 16.04.1 LTS
+* Chrome 52.0.2743.116 (64-bit)
+* Ubuntu 16.04.1 LTS (Linux 4.4.0-28-generic)
 * rollup-plugin-json 2.0.1
 * rollup 0.34.10
